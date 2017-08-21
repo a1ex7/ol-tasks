@@ -1,0 +1,19 @@
+.calendar__task {
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: black;
+    opacity: 0.2;
+  }
+}
+
+.task__done {
+  background-color: green;
+  border-color: green;
+}
+
+.task__recycled {
+  color: black;
+  text-decoration:line-through;
+}
